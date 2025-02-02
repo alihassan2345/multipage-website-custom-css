@@ -1,0 +1,34 @@
+.hero {
+    background: linear-gradient(to right, #7c3aed, #4f46e5);
+    color: white;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background: white;
+    color: #7c3aed;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #e0e7ff;
+    transform: scale(1.05);
+  }
