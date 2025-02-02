@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="container">
-        <h1 className="logo">My Awesome Website</h1>
+        <h1 className="logo">multipage website custom css</h1>
         <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? '×' : '☰'}
         </button>
